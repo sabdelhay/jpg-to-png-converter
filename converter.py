@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import sys
 import os
 from PIL import Image
@@ -16,5 +18,8 @@ for filename in os.listdir(fromJpg):
         """
 
         im.save(f'{toPng}/{filename[:-4]}.png')
+        print(f'{filename} - conversion done!!!')
+
     else:
+        print(f'{filename} - conversion fail!!!')
         continue
