@@ -1,8 +1,8 @@
-#JPG to PNG Converter
+#  JPG to PNG Converter
 
-##Terms
+## Terms
 
-##How to run this application
+### How to run this application
 
 **In your terminal type:**
    ```
